@@ -1,0 +1,61 @@
+// =====================================================================
+// GRIP ANALYTICS · MEDIDAS DAX
+// En Power BI: pestaña Inicio > "Nueva medida" > pega UNA medida a la vez
+// (borra la línea de comentario "//" si te estorba). Tabla de datos: fact_participantes
+// =====================================================================
+
+Participantes = COUNTROWS ( fact_participantes )
+
+Fuerza Media (kg) = AVERAGE ( fact_participantes[fuerza_dominante_kg] )
+
+Fuerza Mediana (kg) = MEDIAN ( fact_participantes[fuerza_dominante_kg] )
+
+Edad Media = AVERAGE ( fact_participantes[edad] )
+
+Personas Mujeres =
+CALCULATE ( COUNTROWS ( fact_participantes ), fact_participantes[sexo] = "F" )
+
+% Mujeres = DIVIDE ( [Personas Mujeres], [Participantes] )
+
+Casos Dinapenia =
+CALCULATE ( COUNTROWS ( fact_participantes ), fact_participantes[dinapenia] = 1 )
+
+Base Dinapenia =
+CALCULATE ( COUNTROWS ( fact_participantes ), fact_participantes[dinapenia] IN { 0, 1 } )
+
+% Dinapenia = DIVIDE ( [Casos Dinapenia], [Base Dinapenia] )
+
+Fuerza Media Hombres (kg) =
+CALCULATE ( [Fuerza Media (kg)], fact_participantes[sexo] = "M" )
+
+Fuerza Media Mujeres (kg) =
+CALCULATE ( [Fuerza Media (kg)], fact_participantes[sexo] = "F" )
+
+Brecha Hombre-Mujer (kg) = [Fuerza Media Hombres (kg)] - [Fuerza Media Mujeres (kg)]
+
+Error Absoluto Medio (kg) =
+AVERAGEX (
+    FILTER ( fact_participantes, NOT ISBLANK ( fact_participantes[fuerza_predicha_cv] ) ),
+    ABS ( fact_participantes[fuerza_dominante_kg] - fact_participantes[fuerza_predicha_cv] )
+)
+
+Casos Caída Seguimiento =
+CALCULATE ( COUNTROWS ( fact_participantes ), fact_participantes[caidor_prospectivo] = 1 )
+
+% Caída Seguimiento =
+DIVIDE (
+    [Casos Caída Seguimiento],
+    CALCULATE ( COUNTROWS ( fact_participantes ), fact_participantes[caidor_prospectivo] IN { 0, 1 } )
+)
+
+// ---- Para la página del simulador (tabla: simulador) ----
+Fuerza Estimada (kg) = AVERAGE ( simulador[fuerza_estimada_kg] )
+
+Corte Dinapenia (kg) = AVERAGE ( simulador[corte_dinapenia_kg] )
+
+Mensaje Simulador =
+IF (
+    ISBLANK ( [Fuerza Estimada (kg)] ),
+    "Elige un valor en cada filtro",
+    IF ( [Fuerza Estimada (kg)] < [Corte Dinapenia (kg)], "Por debajo del corte", "Sobre el corte" )
+)

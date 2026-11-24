@@ -1,0 +1,29 @@
+GRIP ANALYTICS · carpeta lista para Power BI
+===========================================
+Generado con preparar_dashboard.py
+
+ARCHIVOS
+  Grip_Analytics_PowerBI.xlsx  -> el archivo que cargas en Power BI (varias hojas, con tipos de dato correctos)
+  csv/                         -> las mismas tablas en CSV (respaldo)
+  tema_grip_analytics.json     -> colores y fuentes del dashboard (Vista > Temas > Examinar temas)
+  medidas_dax.txt              -> las medidas para copiar y pegar en Power BI
+  LEEME.txt                    -> este archivo
+
+HOJAS DEL EXCEL
+  fact_participantes   1 fila = 1 persona (tabla principal)
+  dim_fuente           descripción y color de cada base
+  kpi_fuente           resumen por base
+  estadisticas         descriptivas por base y sexo
+  pruebas_hipotesis    Mann-Whitney, t de Welch, Spearman
+  modelos_metricas     resultados de regresión, clasificación, K-Means y simulador
+  importancia_variables  efecto de cada variable en la regresión
+  perfil_clusters      resumen de cada perfil K-Means
+  simulador            tabla precalculada para la página "Simulador"
+  calidad_datos        % de nulos por variable y base
+  bitacora             qué se limpió / eliminó
+  diccionario          significado de cada columna
+
+RESUMEN DE ESTA EJECUCIÓN
+  - Estudiantes (fuerza y GPA): 399 personas · fuerza media 34.86 kg
+  - MSc Michele (n = 52): 52 personas · fuerza media 21.38 kg
+  - Senior Games (NSGA): 2068 personas · fuerza media 35.5 kg

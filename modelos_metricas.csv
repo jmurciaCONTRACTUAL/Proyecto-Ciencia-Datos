@@ -1,0 +1,45 @@
+﻿fuente,tarea,modelo,evaluacion,metrica,valor,desviacion,n_filas,nota
+Senior Games (NSGA),Regresión · fuerza dominante (kg),Lineal múltiple,Prueba (15 % de los datos),MAE (kg),5.2112,,311,
+Senior Games (NSGA),Regresión · fuerza dominante (kg),Lineal múltiple,Prueba (15 % de los datos),RMSE (kg),6.7116,,311,
+Senior Games (NSGA),Regresión · fuerza dominante (kg),Lineal múltiple,Prueba (15 % de los datos),R²,0.61,,311,
+Senior Games (NSGA),Regresión · fuerza dominante (kg),Referencia (promedio),Prueba (15 % de los datos),MAE (kg),8.5356,,311,
+Senior Games (NSGA),Regresión · fuerza dominante (kg),Referencia (promedio),Prueba (15 % de los datos),RMSE (kg),10.7513,,311,
+Senior Games (NSGA),Regresión · fuerza dominante (kg),Referencia (promedio),Prueba (15 % de los datos),R²,-0.0006,,311,
+Senior Games (NSGA),Regresión · fuerza dominante (kg),Lineal múltiple,Validación cruzada 5×3,MAE (kg),4.9621,0.1916,2068,
+Senior Games (NSGA),Regresión · fuerza dominante (kg),Lineal múltiple,Validación cruzada 5×3,R²,0.583,0.0372,2068,
+Senior Games (NSGA),Regresión · fuerza dominante (kg),Referencia (promedio),Validación cruzada 5×3,MAE (kg),8.2042,0.21,2068,
+Senior Games (NSGA),Regresión · fuerza dominante (kg),Referencia (promedio),Validación cruzada 5×3,R²,-0.0025,0.0025,2068,
+Senior Games (NSGA),Clasificación · dinapenia (EWGSOP2),Logística balanceada,Validación cruzada 5×3,AUC-ROC,0.8568,0.0437,2068,Clase positiva: 41/2068 casos.
+Senior Games (NSGA),Clasificación · dinapenia (EWGSOP2),Logística balanceada,Validación cruzada 5×3,Exactitud balanceada,0.7839,0.0544,2068,Clase positiva: 41/2068 casos.
+Senior Games (NSGA),Clasificación · dinapenia (EWGSOP2),Logística balanceada,Validación cruzada 5×3,Sensibilidad (recall),0.7843,0.1172,2068,Clase positiva: 41/2068 casos.
+Senior Games (NSGA),Clasificación · dinapenia (EWGSOP2),Logística balanceada,Validación cruzada 5×3,Precisión,0.0681,0.0075,2068,Clase positiva: 41/2068 casos.
+Senior Games (NSGA),Clasificación · dinapenia (EWGSOP2),Logística balanceada,Validación cruzada 5×3,F1,0.1252,0.0136,2068,Clase positiva: 41/2068 casos.
+Senior Games (NSGA),Segmentación · K-Means,K-Means (k = 3),Todos los datos,Silhouette,0.3893,,2068,"Variables: edad, fuerza_dominante_kg. k elegido entre 2 y 5 por mayor Silhouette."
+MSc Michele (n = 52),Regresión · fuerza dominante (kg),Lineal múltiple,Prueba (15 % de los datos),MAE (kg),2.2266,,8,
+MSc Michele (n = 52),Regresión · fuerza dominante (kg),Lineal múltiple,Prueba (15 % de los datos),RMSE (kg),3.0763,,8,
+MSc Michele (n = 52),Regresión · fuerza dominante (kg),Lineal múltiple,Prueba (15 % de los datos),R²,0.8247,,8,
+MSc Michele (n = 52),Regresión · fuerza dominante (kg),Referencia (promedio),Prueba (15 % de los datos),MAE (kg),5.6364,,8,
+MSc Michele (n = 52),Regresión · fuerza dominante (kg),Referencia (promedio),Prueba (15 % de los datos),RMSE (kg),7.3844,,8,
+MSc Michele (n = 52),Regresión · fuerza dominante (kg),Referencia (promedio),Prueba (15 % de los datos),R²,-0.0098,,8,
+MSc Michele (n = 52),Regresión · fuerza dominante (kg),Lineal múltiple,Validación cruzada 5×3,MAE (kg),3.3697,0.8161,52,n pequeño: interpretar con cautela
+MSc Michele (n = 52),Regresión · fuerza dominante (kg),Lineal múltiple,Validación cruzada 5×3,R²,0.4523,0.3442,52,n pequeño: interpretar con cautela
+MSc Michele (n = 52),Regresión · fuerza dominante (kg),Referencia (promedio),Validación cruzada 5×3,MAE (kg),5.0982,1.0129,52,n pequeño: interpretar con cautela
+MSc Michele (n = 52),Regresión · fuerza dominante (kg),Referencia (promedio),Validación cruzada 5×3,R²,-0.0763,0.0819,52,n pequeño: interpretar con cautela
+MSc Michele (n = 52),Clasificación · caída en el seguimiento,Logística balanceada,Validación cruzada 5×3,AUC-ROC,0.5477,0.2728,52,Clase positiva: 9/52 casos. n pequeño: interpretar con cautela
+MSc Michele (n = 52),Clasificación · caída en el seguimiento,Logística balanceada,Validación cruzada 5×3,Exactitud balanceada,0.5185,0.1864,52,Clase positiva: 9/52 casos. n pequeño: interpretar con cautela
+MSc Michele (n = 52),Clasificación · caída en el seguimiento,Logística balanceada,Validación cruzada 5×3,Sensibilidad (recall),0.2667,0.3091,52,Clase positiva: 9/52 casos. n pequeño: interpretar con cautela
+MSc Michele (n = 52),Clasificación · caída en el seguimiento,Logística balanceada,Validación cruzada 5×3,Precisión,0.2333,0.2906,52,Clase positiva: 9/52 casos. n pequeño: interpretar con cautela
+MSc Michele (n = 52),Clasificación · caída en el seguimiento,Logística balanceada,Validación cruzada 5×3,F1,0.2356,0.2629,52,Clase positiva: 9/52 casos. n pequeño: interpretar con cautela
+MSc Michele (n = 52),Segmentación · K-Means,K-Means (k = 2),Todos los datos,Silhouette,0.3318,,52,"Variables: edad, fuerza_dominante_kg, imc. k elegido entre 2 y 5 por mayor Silhouette."
+Estudiantes (fuerza y GPA),Regresión · fuerza dominante (kg),Lineal múltiple,Prueba (15 % de los datos),MAE (kg),5.5669,,60,
+Estudiantes (fuerza y GPA),Regresión · fuerza dominante (kg),Lineal múltiple,Prueba (15 % de los datos),RMSE (kg),7.4681,,60,
+Estudiantes (fuerza y GPA),Regresión · fuerza dominante (kg),Lineal múltiple,Prueba (15 % de los datos),R²,0.5606,,60,
+Estudiantes (fuerza y GPA),Regresión · fuerza dominante (kg),Referencia (promedio),Prueba (15 % de los datos),MAE (kg),8.8142,,60,
+Estudiantes (fuerza y GPA),Regresión · fuerza dominante (kg),Referencia (promedio),Prueba (15 % de los datos),RMSE (kg),11.2934,,60,
+Estudiantes (fuerza y GPA),Regresión · fuerza dominante (kg),Referencia (promedio),Prueba (15 % de los datos),R²,-0.0048,,60,
+Estudiantes (fuerza y GPA),Regresión · fuerza dominante (kg),Lineal múltiple,Validación cruzada 5×3,MAE (kg),5.7373,0.5038,399,
+Estudiantes (fuerza y GPA),Regresión · fuerza dominante (kg),Lineal múltiple,Validación cruzada 5×3,R²,0.5092,0.1087,399,
+Estudiantes (fuerza y GPA),Regresión · fuerza dominante (kg),Referencia (promedio),Validación cruzada 5×3,MAE (kg),8.7794,0.4767,399,
+Estudiantes (fuerza y GPA),Regresión · fuerza dominante (kg),Referencia (promedio),Validación cruzada 5×3,R²,-0.0163,0.0202,399,
+Estudiantes (fuerza y GPA),Segmentación · K-Means,K-Means (k = 3),Todos los datos,Silhouette,0.4251,,399,"Variables: fuerza_dominante_kg, imc. k elegido entre 2 y 5 por mayor Silhouette."
+Senior Games (NSGA),Simulador · lineal,edad + sexo + log(cardio) + log(fuerza),Validación cruzada 5,R²,0.57,0.0347,2035,Referencial: no es una herramienta clínica

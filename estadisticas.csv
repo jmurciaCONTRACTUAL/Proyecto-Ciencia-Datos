@@ -1,0 +1,7 @@
+﻿fuente,sexo_nombre,n,media,desviacion,minimo,p25,mediana,p75,maximo
+Estudiantes (fuerza y GPA),Hombre,167,43.67,10.12,17.64,37.08,43.59,50.33,71.17
+Estudiantes (fuerza y GPA),Mujer,232,28.53,5.93,14.52,24.46,28.6,32.43,44.04
+MSc Michele (n = 52),Hombre,8,33.0,5.24,26.0,29.5,32.0,38.0,40.0
+MSc Michele (n = 52),Mujer,44,19.27,4.29,12.0,16.0,20.0,22.0,30.0
+Senior Games (NSGA),Hombre,859,43.48,9.3,16.33,37.33,43.33,50.0,74.33
+Senior Games (NSGA),Mujer,1209,29.83,6.27,11.0,25.67,30.0,33.33,80.0

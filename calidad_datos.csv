@@ -1,0 +1,80 @@
+﻿fuente,variable,filas,nulos,pct_nulos
+Estudiantes (fuerza y GPA),id_participante,399,0,0.0
+Estudiantes (fuerza y GPA),fuente,399,0,0.0
+Estudiantes (fuerza y GPA),sexo,399,0,0.0
+Estudiantes (fuerza y GPA),sexo_nombre,399,0,0.0
+Estudiantes (fuerza y GPA),grupo_edad,399,0,0.0
+Estudiantes (fuerza y GPA),grupo_edad_orden,399,0,0.0
+Estudiantes (fuerza y GPA),masa_kg,399,0,0.0
+Estudiantes (fuerza y GPA),altura_m,399,0,0.0
+Estudiantes (fuerza y GPA),imc,399,0,0.0
+Estudiantes (fuerza y GPA),categoria_imc,399,0,0.0
+Estudiantes (fuerza y GPA),fuerza_dominante_kg,399,0,0.0
+Estudiantes (fuerza y GPA),fuerza_relativa,399,0,0.0
+Estudiantes (fuerza y GPA),estado_dinapenia,399,0,0.0
+Estudiantes (fuerza y GPA),fuerza_predicha_cv,399,0,0.0
+Estudiantes (fuerza y GPA),residuo_cv,399,0,0.0
+Estudiantes (fuerza y GPA),cluster,399,0,0.0
+Estudiantes (fuerza y GPA),pca1,399,0,0.0
+Estudiantes (fuerza y GPA),pca2,399,0,0.0
+Estudiantes (fuerza y GPA),term_gpa,399,0,0.0
+Estudiantes (fuerza y GPA),rendimiento_gpa,399,0,0.0
+Estudiantes (fuerza y GPA),mano_dominante,399,0,0.0
+MSc Michele (n = 52),id_participante,52,0,0.0
+MSc Michele (n = 52),fuente,52,0,0.0
+MSc Michele (n = 52),sexo,52,0,0.0
+MSc Michele (n = 52),sexo_nombre,52,0,0.0
+MSc Michele (n = 52),edad,52,0,0.0
+MSc Michele (n = 52),grupo_edad,52,0,0.0
+MSc Michele (n = 52),grupo_edad_orden,52,0,0.0
+MSc Michele (n = 52),masa_kg,52,0,0.0
+MSc Michele (n = 52),altura_m,52,0,0.0
+MSc Michele (n = 52),imc,52,0,0.0
+MSc Michele (n = 52),categoria_imc,52,0,0.0
+MSc Michele (n = 52),fuerza_dominante_kg,52,0,0.0
+MSc Michele (n = 52),fuerza_relativa,52,0,0.0
+MSc Michele (n = 52),dinapenia,52,0,0.0
+MSc Michele (n = 52),estado_dinapenia,52,0,0.0
+MSc Michele (n = 52),fecha,52,0,0.0
+MSc Michele (n = 52),anio,52,0,0.0
+MSc Michele (n = 52),fuerza_predicha_cv,52,0,0.0
+MSc Michele (n = 52),residuo_cv,52,0,0.0
+MSc Michele (n = 52),prob_caida_cv,52,0,0.0
+MSc Michele (n = 52),cluster,52,0,0.0
+MSc Michele (n = 52),pca1,52,0,0.0
+MSc Michele (n = 52),pca2,52,0,0.0
+MSc Michele (n = 52),fes_total,52,0,0.0
+MSc Michele (n = 52),categoria_fes,52,0,0.0
+MSc Michele (n = 52),bbs_total,52,0,0.0
+MSc Michele (n = 52),meem_total,52,0,0.0
+MSc Michele (n = 52),n_comorbilidades,52,0,0.0
+MSc Michele (n = 52),practica_actividad,52,0,0.0
+MSc Michele (n = 52),polifarmacia,52,0,0.0
+MSc Michele (n = 52),queda_previa,52,0,0.0
+MSc Michele (n = 52),eventos_estres,52,0,0.0
+MSc Michele (n = 52),frecuencia_dias_sem,52,0,0.0
+MSc Michele (n = 52),caidor_prospectivo,52,0,0.0
+Senior Games (NSGA),id_participante,2068,0,0.0
+Senior Games (NSGA),fuente,2068,0,0.0
+Senior Games (NSGA),sexo,2068,0,0.0
+Senior Games (NSGA),sexo_nombre,2068,0,0.0
+Senior Games (NSGA),edad,2068,0,0.0
+Senior Games (NSGA),grupo_edad,2068,0,0.0
+Senior Games (NSGA),grupo_edad_orden,2068,0,0.0
+Senior Games (NSGA),fuerza_dominante_kg,2068,0,0.0
+Senior Games (NSGA),dinapenia,2068,0,0.0
+Senior Games (NSGA),estado_dinapenia,2068,0,0.0
+Senior Games (NSGA),fecha,2068,0,0.0
+Senior Games (NSGA),anio,2068,0,0.0
+Senior Games (NSGA),fuerza_predicha_cv,2068,0,0.0
+Senior Games (NSGA),residuo_cv,2068,0,0.0
+Senior Games (NSGA),prob_dinapenia_cv,2068,0,0.0
+Senior Games (NSGA),cluster,2068,0,0.0
+Senior Games (NSGA),pca1,2068,0,0.0
+Senior Games (NSGA),pca2,2068,0,0.0
+Senior Games (NSGA),sede,2068,0,0.0
+Senior Games (NSGA),cardio_min,2068,5,0.24
+Senior Games (NSGA),fuerza_min,2068,31,1.5
+Senior Games (NSGA),dias_semana,2068,671,32.45
+Senior Games (NSGA),prop_fuerza,2068,33,1.6
+Senior Games (NSGA),cumple_aerobico,2068,5,0.24

@@ -1,0 +1,11 @@
+﻿fuente,prueba,comparacion,n,estadistico,p_valor,tamano_efecto,detalle_efecto,lectura,p_valor_texto
+Estudiantes (fuerza y GPA),Mann-Whitney U,Fuerza: hombres vs mujeres,399,35009.0,0.0,1.90282,d de Cohen; medianas 43.6 vs 28.6 kg,"Diferencia/relación estadísticamente significativa (p < 0,05)","< 0,001"
+Estudiantes (fuerza y GPA),t de Welch,Fuerza: hombres vs mujeres,399,17.31073,0.0,1.90282,d de Cohen; medias 43.7 vs 28.5 kg,"Diferencia/relación estadísticamente significativa (p < 0,05)","< 0,001"
+Estudiantes (fuerza y GPA),Correlación de Spearman,GPA del periodo vs fuerza dominante,399,-0.09844,0.04942,-0.09844,rho de Spearman,"Diferencia/relación estadísticamente significativa (p < 0,05)","0,049"
+MSc Michele (n = 52),Mann-Whitney U,Fuerza: hombres vs mujeres,52,348.5,1e-05,3.09322,d de Cohen; medianas 32.0 vs 20.0 kg,"Diferencia/relación estadísticamente significativa (p < 0,05)","< 0,001"
+MSc Michele (n = 52),t de Welch,Fuerza: hombres vs mujeres,52,6.99828,7e-05,3.09322,d de Cohen; medias 33.0 vs 19.3 kg,"Diferencia/relación estadísticamente significativa (p < 0,05)","< 0,001"
+MSc Michele (n = 52),Correlación de Spearman,Edad vs fuerza dominante,52,-0.29441,0.03413,-0.29441,rho de Spearman,"Diferencia/relación estadísticamente significativa (p < 0,05)","0,034"
+MSc Michele (n = 52),Mann-Whitney U,Fuerza: con caída vs sin caída (seguimiento),52,199.0,0.90314,,medianas 20.0 vs 20.0 kg,"Sin evidencia suficiente (p ≥ 0,05)","0,903"
+Senior Games (NSGA),Mann-Whitney U,Fuerza: hombres vs mujeres,2068,926022.0,0.0,1.77883,d de Cohen; medianas 43.3 vs 30.0 kg,"Diferencia/relación estadísticamente significativa (p < 0,05)","< 0,001"
+Senior Games (NSGA),t de Welch,Fuerza: hombres vs mujeres,2068,37.41079,0.0,1.77883,d de Cohen; medias 43.5 vs 29.8 kg,"Diferencia/relación estadísticamente significativa (p < 0,05)","< 0,001"
+Senior Games (NSGA),Correlación de Spearman,Edad vs fuerza dominante,2068,-0.2455,0.0,-0.2455,rho de Spearman,"Diferencia/relación estadísticamente significativa (p < 0,05)","< 0,001"

@@ -1,0 +1,9 @@
+﻿fuente,cluster,n,edad_media,fuerza_media_kg,imc_medio,pct_mujeres,pct_dinapenia,k,silhouette,variables
+Senior Games (NSGA),Perfil 1 · Fuerza baja,745,77.34,29.67,,63.22,5.23,3,0.3893,"edad, fuerza_dominante_kg"
+Senior Games (NSGA),Perfil 2 · Fuerza media,790,61.32,31.64,,88.86,0.25,3,0.3893,"edad, fuerza_dominante_kg"
+Senior Games (NSGA),Perfil 3 · Fuerza alta,533,65.48,49.38,,6.75,0.0,3,0.3893,"edad, fuerza_dominante_kg"
+MSc Michele (n = 52),Perfil 1 · Fuerza baja,21,78.93,16.1,23.17,100.0,38.1,2,0.3318,"edad, fuerza_dominante_kg, imc"
+MSc Michele (n = 52),Perfil 2 · Fuerza alta,31,71.91,24.97,27.57,74.19,3.23,2,0.3318,"edad, fuerza_dominante_kg, imc"
+Estudiantes (fuerza y GPA),Perfil 1 · Fuerza baja,214,,28.31,22.62,79.44,,3,0.4251,"fuerza_dominante_kg, imc"
+Estudiantes (fuerza y GPA),Perfil 2 · Fuerza media,69,,33.15,33.59,78.26,,3,0.4251,"fuerza_dominante_kg, imc"
+Estudiantes (fuerza y GPA),Perfil 3 · Fuerza alta,116,,47.98,24.27,6.9,,3,0.4251,"fuerza_dominante_kg, imc"

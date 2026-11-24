@@ -1,0 +1,17 @@
+﻿columna,descripcion,unidad
+id_participante,Identificador único creado por este script (prefijo de la base + número),texto
+fuente,Base de datos de origen,texto
+sexo / sexo_nombre,M/F y su nombre (Hombre/Mujer),texto
+edad,Edad en años (Senior Games: al tamizaje; Michele: al ingreso; estudiantes: no disponible),años
+grupo_edad / grupo_edad_orden,Rango de edad y número para ordenarlo correctamente,texto / entero
+"masa_kg, altura_m, imc, categoria_imc",Medidas corporales (no existen en Senior Games),"kg, m, kg/m², texto"
+fuerza_dominante_kg,Fuerza de agarre de la mano dominante (Senior Games: promedio de 3 ensayos; Michele: HGS; estudiantes: promedio en libras convertido a kg),kg
+fuerza_relativa,Fuerza dominante dividida por la masa corporal,kg de fuerza por kg de masa
+dinapenia / estado_dinapenia,"1 si la fuerza está bajo el corte (27 kg hombres, 16 kg mujeres). Solo adultos mayores. NO es diagnóstico",0/1 y texto
+"fecha, anio",Fecha de medición (Senior Games) o de ingreso (Michele),fecha / año
+"sede, cardio_min, fuerza_min, dias_semana, prop_fuerza, cumple_aerobico",Actividad física y sede (Senior Games),"minutos/semana, 0-1"
+"fes_total, bbs_total, meem_total, n_comorbilidades, caidor_prospectivo, ...","Miedo a caer, equilibrio, estado mental, enfermedades y caída en el seguimiento (Michele)",puntajes / 0-1
+"term_gpa, rendimiento_gpa, mano_dominante",Rendimiento académico y mano dominante (estudiantes),0-4 / texto
+fuerza_predicha_cv,Fuerza estimada por regresión con validación cruzada (cada fila se predice sin haberla usado para entrenar),kg
+"prob_dinapenia_cv, prob_caida_cv",Probabilidad estimada por el clasificador (validación cruzada),0-1
+"cluster, pca1, pca2",Perfil K-Means y sus coordenadas en 2 dimensiones (PCA),texto / número

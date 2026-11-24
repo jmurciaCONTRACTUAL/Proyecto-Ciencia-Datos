@@ -1,0 +1,24 @@
+﻿fuente,variable,efecto_kg,efecto_absoluto_kg
+Senior Games (NSGA),sexo_M,14.5081,14.5081
+Senior Games (NSGA),edad,-3.6307,3.6307
+Senior Games (NSGA),sede_Alabama,-2.018,2.018
+Senior Games (NSGA),sede_Minneapolis,1.1136,1.1136
+Senior Games (NSGA),sede_Cleveland,0.9045,0.9045
+Senior Games (NSGA),prop_fuerza,0.8691,0.8691
+Senior Games (NSGA),fuerza_min,-0.2347,0.2347
+Senior Games (NSGA),cardio_min,0.171,0.171
+Senior Games (NSGA),cumple_aerobico,0.1032,0.1032
+MSc Michele (n = 52),sexo_M,7.916,7.916
+MSc Michele (n = 52),masa_kg,2.7182,2.7182
+MSc Michele (n = 52),meem_total,1.1817,1.1817
+MSc Michele (n = 52),edad,-0.8677,0.8677
+MSc Michele (n = 52),bbs_total,-0.5089,0.5089
+MSc Michele (n = 52),fes_total,-0.1453,0.1453
+MSc Michele (n = 52),imc,-0.0886,0.0886
+MSc Michele (n = 52),n_comorbilidades,-0.0857,0.0857
+Estudiantes (fuerza y GPA),sexo_M,9.9127,9.9127
+Estudiantes (fuerza y GPA),altura_m,3.0352,3.0352
+Estudiantes (fuerza y GPA),masa_kg,1.7522,1.7522
+Estudiantes (fuerza y GPA),mano_dominante_R,-1.3016,1.3016
+Estudiantes (fuerza y GPA),term_gpa,-0.8947,0.8947
+Estudiantes (fuerza y GPA),imc,0.0567,0.0567

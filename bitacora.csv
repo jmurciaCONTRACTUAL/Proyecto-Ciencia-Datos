@@ -1,0 +1,18 @@
+﻿fuente,paso,detalle
+Senior Games (NSGA),Limpieza,Archivo: Senior Games Grip Data.xlsx (hoja 'NSGA Grip Data') · filas originales: 2333
+Senior Games (NSGA),Limpieza,Ensayos de fuerza <= 0 convertidos en nulo: 15
+Senior Games (NSGA),Limpieza,Filas sin fuerza dominante definible (DOM distinto de 1/2 o sin ensayos) eliminadas: 265
+Senior Games (NSGA),Limpieza,Filas utilizables: 2068
+MSc Michele (n = 52),Limpieza,Archivo: MSc_Michele_n52.xlsx (hoja 'dados.prim') · filas originales: 52 · columnas: 93
+MSc Michele (n = 52),Limpieza,Altura convertida de cm a m
+MSc Michele (n = 52),Limpieza,Ítems FES-I: 16 · BBS: 14 · MEEM: 5 · comorbilidades: 7
+MSc Michele (n = 52),Limpieza,Filas sin fuerza dominante eliminadas: 0
+MSc Michele (n = 52),Limpieza,Filas utilizables: 52
+Estudiantes (fuerza y GPA),Limpieza,Archivo: Dataset.GripStrengthAndGPA.csv · filas originales: 405
+Estudiantes (fuerza y GPA),Limpieza,Valores no numéricos convertidos en nulo (p. ej. '6..3'): 1
+Estudiantes (fuerza y GPA),Limpieza,"Promedio L imposible (fuera de [máx/3, máx]): 11 fila(s) -> nulo"
+Estudiantes (fuerza y GPA),Limpieza,"Promedio R imposible (fuera de [máx/3, máx]): 6 fila(s) -> nulo"
+Estudiantes (fuerza y GPA),Limpieza,Filas sin fuerza dominante eliminadas: 6
+Estudiantes (fuerza y GPA),Limpieza,Filas utilizables: 399
+Senior Games (NSGA),Variables fuera del modelo,> 30 % de nulos: ['dias_semana']
+Senior Games (NSGA),Variables fuera del modelo,> 30 % de nulos: ['dias_semana']
